@@ -7,9 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="processInterForm" method="GET">
-Your name: <input type="text" name="name"/>
-<input type="submit"/>
-</form>
+Spring Form:<br>
+
+${message}
 </body>
 </html>
