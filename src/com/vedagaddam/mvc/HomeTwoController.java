@@ -29,7 +29,7 @@ public class HomeTwoController {
 	
 		//String name = req.getParameter("name");
 		name = name.toUpperCase();
-		String welc = "Welcome "+name +"--";
+		String welc = "Welcome "+name +" -I- ";
 		model.addAttribute("message", welc);
 		return "process-I-name";
 	}
